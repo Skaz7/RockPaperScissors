@@ -41,10 +41,11 @@ def game_screen():
 
         clear_screen()
 
-        print('\n Co wybierasz?')
+        print('\nCo wybierasz?')
         print('\n\t1 - PAPIER')
         print('\t2 - KAMIEŃ')
         print('\t3 - NOŻYCE')
+        print('\n\t0 - Wyjście')
 
         computer_choice = random.choice(['PAPIER', 'KAMIEŃ', 'NOŻYCE'])
 
